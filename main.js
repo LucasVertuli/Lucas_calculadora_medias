@@ -33,7 +33,7 @@ function adicionaLinha(){
         let linha = '<tr>';
         linha += `<td>${inputNomeAtividade.value}</td>`;
         linha += `<td>${inputNotaAtividade.value}</td>`;
-        linha += `<td>${inputNotaAtividade.value >= notaMinima ? spanaprovado : spanreprovado } </tr}`; 
+        linha += `<td>${inputNotaAtividade.value >= notaMinima ? imgAprovado : imgReprovado } </tr}`; 
         linha += `</tr>`;
 
         linhas += linha;
